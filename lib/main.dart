@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:minimalist_attendance_tracker/screens/attendance_report.dart';
 import 'package:minimalist_attendance_tracker/screens/home_page.dart';
 
@@ -17,8 +18,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Attendance Track',
-      theme: ThemeData.light().copyWith(),
-      home: const LoginPage(),
+      theme: ThemeData.light(
+      ).copyWith(
+        textTheme: GoogleFonts.poppinsTextTheme()
+      ),
+      home: const HomePage(),
     );
   }
 }
