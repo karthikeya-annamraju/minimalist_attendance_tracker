@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
     const AppHomeScreen(),
     const NotificationsScreen(),
     const SettingsScreen(),
-    Center(child: Text("3")),
+    const Center(child: Text("3")),
 
   ];
 
