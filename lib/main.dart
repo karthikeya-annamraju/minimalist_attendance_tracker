@@ -7,6 +7,7 @@ import 'auth/login_page.dart';
 import 'auth/singup_page.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
